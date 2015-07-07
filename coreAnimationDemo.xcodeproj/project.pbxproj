@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB0245131B4BBB0900893D31 /* keyAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0245121B4BBB0900893D31 /* keyAnimationViewController.m */; };
+		EB0245151B4BBC1300893D31 /* Mario.png in Resources */ = {isa = PBXBuildFile; fileRef = EB0245141B4BBC1300893D31 /* Mario.png */; };
+		EB0245181B4BCD2A00893D31 /* TransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB0245171B4BCD2A00893D31 /* TransitionViewController.m */; };
 		EBA7C7CF1B4BACEB00E07048 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA7C7CE1B4BACEB00E07048 /* main.m */; };
 		EBA7C7D21B4BACEB00E07048 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA7C7D11B4BACEB00E07048 /* AppDelegate.m */; };
 		EBA7C7D51B4BACEB00E07048 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA7C7D41B4BACEB00E07048 /* ViewController.m */; };
@@ -14,6 +17,8 @@
 		EBA7C7DA1B4BACEB00E07048 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBA7C7D91B4BACEB00E07048 /* Images.xcassets */; };
 		EBA7C7DD1B4BACEB00E07048 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EBA7C7DB1B4BACEB00E07048 /* LaunchScreen.xib */; };
 		EBA7C7E91B4BACEB00E07048 /* coreAnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA7C7E81B4BACEB00E07048 /* coreAnimationDemoTests.m */; };
+		EBA7C7F41B4BAE7300E07048 /* basicAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA7C7F31B4BAE7300E07048 /* basicAnimationViewController.m */; };
+		EBA7C7F71B4BB34500E07048 /* groupAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA7C7F61B4BB34500E07048 /* groupAnimationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +32,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		EB0245111B4BBB0900893D31 /* keyAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = keyAnimationViewController.h; sourceTree = "<group>"; };
+		EB0245121B4BBB0900893D31 /* keyAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = keyAnimationViewController.m; sourceTree = "<group>"; };
+		EB0245141B4BBC1300893D31 /* Mario.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mario.png; sourceTree = "<group>"; };
+		EB0245161B4BCD2A00893D31 /* TransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionViewController.h; sourceTree = "<group>"; };
+		EB0245171B4BCD2A00893D31 /* TransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionViewController.m; sourceTree = "<group>"; };
 		EBA7C7C91B4BACEB00E07048 /* coreAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coreAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBA7C7CD1B4BACEB00E07048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBA7C7CE1B4BACEB00E07048 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +50,10 @@
 		EBA7C7E21B4BACEB00E07048 /* coreAnimationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = coreAnimationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBA7C7E71B4BACEB00E07048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBA7C7E81B4BACEB00E07048 /* coreAnimationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = coreAnimationDemoTests.m; sourceTree = "<group>"; };
+		EBA7C7F21B4BAE7300E07048 /* basicAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = basicAnimationViewController.h; sourceTree = "<group>"; };
+		EBA7C7F31B4BAE7300E07048 /* basicAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = basicAnimationViewController.m; sourceTree = "<group>"; };
+		EBA7C7F51B4BB34500E07048 /* groupAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = groupAnimationViewController.h; sourceTree = "<group>"; };
+		EBA7C7F61B4BB34500E07048 /* groupAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = groupAnimationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +100,15 @@
 				EBA7C7D31B4BACEB00E07048 /* ViewController.h */,
 				EBA7C7D41B4BACEB00E07048 /* ViewController.m */,
 				EBA7C7D61B4BACEB00E07048 /* Main.storyboard */,
+				EBA7C7F21B4BAE7300E07048 /* basicAnimationViewController.h */,
+				EBA7C7F31B4BAE7300E07048 /* basicAnimationViewController.m */,
+				EBA7C7F51B4BB34500E07048 /* groupAnimationViewController.h */,
+				EBA7C7F61B4BB34500E07048 /* groupAnimationViewController.m */,
+				EB0245111B4BBB0900893D31 /* keyAnimationViewController.h */,
+				EB0245121B4BBB0900893D31 /* keyAnimationViewController.m */,
+				EB0245161B4BCD2A00893D31 /* TransitionViewController.h */,
+				EB0245171B4BCD2A00893D31 /* TransitionViewController.m */,
+				EB0245141B4BBC1300893D31 /* Mario.png */,
 				EBA7C7D91B4BACEB00E07048 /* Images.xcassets */,
 				EBA7C7DB1B4BACEB00E07048 /* LaunchScreen.xib */,
 				EBA7C7CC1B4BACEB00E07048 /* Supporting Files */,
@@ -199,6 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB0245151B4BBC1300893D31 /* Mario.png in Resources */,
 				EBA7C7D81B4BACEB00E07048 /* Main.storyboard in Resources */,
 				EBA7C7DD1B4BACEB00E07048 /* LaunchScreen.xib in Resources */,
 				EBA7C7DA1B4BACEB00E07048 /* Images.xcassets in Resources */,
@@ -219,8 +243,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBA7C7F71B4BB34500E07048 /* groupAnimationViewController.m in Sources */,
+				EB0245181B4BCD2A00893D31 /* TransitionViewController.m in Sources */,
 				EBA7C7D51B4BACEB00E07048 /* ViewController.m in Sources */,
 				EBA7C7D21B4BACEB00E07048 /* AppDelegate.m in Sources */,
+				EB0245131B4BBB0900893D31 /* keyAnimationViewController.m in Sources */,
+				EBA7C7F41B4BAE7300E07048 /* basicAnimationViewController.m in Sources */,
 				EBA7C7CF1B4BACEB00E07048 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +446,7 @@
 				EBA7C7EE1B4BACEB00E07048 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EBA7C7EF1B4BACEB00E07048 /* Build configuration list for PBXNativeTarget "coreAnimationDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +455,7 @@
 				EBA7C7F11B4BACEB00E07048 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
